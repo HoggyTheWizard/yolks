@@ -1,6 +1,6 @@
 FROM        --platform=$TARGETOS/$TARGETARCH python:3.11-slim
 
-LABEL       author="Michael Parker" maintainer="parker@pterodactyl.io"
+LABEL       author="HoggyTheWizard" maintainer="hoggydev@proton.me"
 
 RUN         apt update \
             && apt -y install git gcc g++ ca-certificates dnsutils curl iproute2 ffmpeg procps \
